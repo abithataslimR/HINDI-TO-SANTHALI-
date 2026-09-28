@@ -1,0 +1,7 @@
+Flask
+flask-cors
+torch
+soundfile
+transformers
+indictranstoolkit
+git+https://github.com/huggingface/parler-tts.git
