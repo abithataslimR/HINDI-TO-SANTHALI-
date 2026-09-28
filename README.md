@@ -1,45 +1,23 @@
-# Hindi to Santhali AI Translator
+# Hindi → Santhali AI Translator
 
 AI-powered Hindi to Santhali speech translation system.
 
-## Requirements
+## Features
 
-- Python 3.10+
-- Git
-- Internet connection for installing packages and downloading models
+- Hindi speech recognition using Vosk
+- Hindi → Santhali translation using IndicTrans2
+- Santhali speech generation using Indic Parler-TTS
+- Flask translation server
 
-## Installation
+## How to use
 
-Clone the repository:
+### 1. Download the project
 
-git clone https://github.com/abithataslimR/HINDI-TO-SANTHALI-.git
+Click **Code → Download ZIP** on this GitHub repository.
 
-cd HINDI-TO-SANTHALI-
+### 2. Install Python packages
 
-Create a virtual environment:
+Open a terminal inside the project folder and run:
 
-python3 -m venv venv
-
-Activate it:
-
-source venv/bin/activate
-
-Install dependencies:
-
+```bash
 pip install -r requirements-deploy.txt
-
-## Run
-
-Start the translation server:
-
-python translate_server.py
-
-The server will run on:
-
-http://127.0.0.1:5000
-
-## Important
-
-The AI models are not included in this repository.
-
-The Vosk Hindi speech recognition model, IndicTrans2 translation model, and Indic Parler-TTS model must be downloaded separately.
